@@ -11,6 +11,6 @@ module.exports = {
   JSXElement: require('./JSXElement'),
   VariableDeclarator: require('./VariableDeclarator'),
   CallExpression: require('./CallExpression'),
-  FunctionDeclaration: require('./FunctionDeclartion'),
+  FunctionDeclaration: require('./FunctionDeclaration'),
   ImportDeclaration: require('./ImportDeclaration')
 };
