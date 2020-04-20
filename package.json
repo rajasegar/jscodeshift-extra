@@ -1,12 +1,12 @@
 {
-  "name": "jscodeshift",
-  "version": "0.7.0",
+  "name": "jscodeshift-extra",
+  "version": "1.0.0",
   "description": "A toolkit for JavaScript codemods",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/jscodeshift.git"
+    "url": "https://github.com/rajasegar/jscodeshift-extra.git"
   },
-  "bugs": "https://github.com/facebook/jscodeshift/issues",
+  "bugs": "https://github.com/facebook/jscodeshift-extra/issues",
   "main": "index.js",
   "scripts": {
     "prepare": "cp -R src/ dist/",
@@ -21,7 +21,7 @@
     "recast",
     "babel"
   ],
-  "author": "Felix Kling",
+  "author": "Rajasegar Chandran",
   "dependencies": {
     "@babel/core": "^7.1.6",
     "@babel/parser": "^7.1.6",
