@@ -11,7 +11,8 @@
   "scripts": {
     "prepare": "cp -R src/ dist/",
     "test": "jest --bail",
-    "docs": "rm -rf docs && jsdoc -d docs -R README.md src/collections/* src/core.js src/Collection.js"
+    "docs": "rm -rf docs && jsdoc -d docs -R README.md src/collections/* src/core.js src/Collection.js",
+    "deploy": "npm version patch && git push && git push --tags && npm publish"
   },
   "bin": {
     "jscodeshift": "./bin/jscodeshift.js"
